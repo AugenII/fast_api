@@ -16,7 +16,7 @@ def root():
 
 models.Base.metadata.create_all(bind=engine) #after running uvicorn main:app this lines will create a database file in the directory
 
-app.mount("/static",StaticFiles(directory="templates\static"), name="static")
+app.mount("/static",StaticFiles(directory="static"), name="static")
 
 #the auth file is inside the routers folder. This is done to acccess the contents of auth.py file without calling FastAPI().add()
 #calling via FastAPI() method limits its scope only to the file which declared
