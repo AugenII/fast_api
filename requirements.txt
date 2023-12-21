@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+passlib
+python-multipart
+python-jose[cryptography]
+psycopg2-binary
+alembic
+aiofiles
+jinja2

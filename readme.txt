@@ -1,0 +1,1 @@
+https://simelabs.udemy.com/course/fastapi-the-complete-course/learn/lecture/29972628#overview
